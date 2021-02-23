@@ -76,7 +76,7 @@
          animation: spin 2.5s linear;
          animation-direction: forward;
          /* margin:-60px 0 0; */
-         transform-origin: bottom left;
+         transform-origin: center center;
          -webkit-animation-fill-mode: forwards;
          animation-play-state: paused;
          }
@@ -115,10 +115,9 @@
          @keyframes spin {
             
             0%  {transform: rotate(0deg);}
-            100% {transform: rotate(360deg);} 
+            100% {transform: rotate(-9deg);} 
             
          }
-
 
          .popup
          {
@@ -208,10 +207,8 @@ th, td {
             <img id="canvas1_img2" style="position: absolute; left: 297px; top: -96px; width:400px; height:400px; z-index: 0" src="Images/Worm_gear.png">
          </div>
 
-         <div id="box_4">
-            <img id="canvas1_img1" style="position: absolute; left: 297px; top: -98px; width:400px; height:400px; z-index: 0" src="Images/Worm_wheel.png">
+         <img id="box_4" style="position: absolute; left: 391px; top: 47px; width:245px; height:245px; z-index: 0" src="Images/Worm_wheel.png">
 
-         </div>
          <img id="canvas1_img3" style="position: absolute; left: 297px; top: -6px; width:400px; height:400px; z-index: 0" src="Images/base.png">
          <img id="canvas1_img5" style="position: absolute; left: 615px; top: 410px; width:100px; height:100px; z-index: 0" src="Images/Hook.png">
          <div id="string" style="position: absolute; left: 415px; top: 172px"></div>
